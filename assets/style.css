@@ -1,0 +1,98 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #218380;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.navitems {
+    padding: 0.5rem 0.75rem;
+}
+
+.viewHighscores {
+    cursor: pointer;
+}
+
+.timer { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer p {
+    padding: 0.25rem;
+}
+
+.time {
+    visibility: hidden;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 94vw;
+}
+
+.container {
+    border: #000000;
+    box-shadow: 3px 3px 6px 4px rgba(94,92,92,0.62);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    max-width: 70%;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+.startText {
+    padding: 0.3rem 0;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    background-color: #218380;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+.correct, .incorrect {
+    font-size: 0.75rem;
+}
+
+.highscoresDisplay {
+    font-size: 0.75rem;
+}
+
+.btnStyling {
+    margin: 0.4rem 0;
+    padding: 0.5rem;
+    background-color: #218380;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

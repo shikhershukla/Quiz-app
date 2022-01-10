@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard class="navitems viewHighscores">View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+        <div class="navitems timer">
+            <p>Timer:</p>
+            <p class = "time">90</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="question">Coding Quiz Challange</h1>
+            <p class="startText">Try to answer the following code-related question within the time limit</p>
+            <p class="startText">Keep in mind that incorrect answers will penalize your score/time by Ten seconds!</p>
+            <button class="option hide">1</button>
+            <button class="option hide">1</button>
+            <button class="option hide">1</button>
+            <button class="option hide">1</button>
+            <p class="correct hide">Correct!</p>
+            <p class="incorrect hide">Incorrect!</p>
+            <p class="scoreDisplay hide">tada</p>
+            <form class="allDone hide">
+                <label for="">Enter Initials:</label>
+                <input type="text" id="name" required>
+                <button type="submit" id="submit" class="btnStyling">Submit</button>
+            </form>
+            <button class="start btnStyling">Start Quiz</button>
+            <p class="highscoresDisplay hide"></p>
+            <button class="goBack btnStyling hide">Go Back</button>
+            <button class="clearHighscore btnStyling hide">Clear Highscore</button>
+        <div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
